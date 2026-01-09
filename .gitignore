@@ -1,0 +1,35 @@
+# ===== BUILD OUTPUT =====
+/target/
+/out/
+/build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.sts4-cache/
+.springBeans
+.vscode/
+
+# ===== MAVEN =====
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== LOGS =====
+*.log
+
+# ===== ENV & SECRETS =====
+.env
+*.env
+application.properties
+application.yml
+application-*.yml
+
+# ===== OS JUNK =====
+.DS_Store
+Thumbs.db
